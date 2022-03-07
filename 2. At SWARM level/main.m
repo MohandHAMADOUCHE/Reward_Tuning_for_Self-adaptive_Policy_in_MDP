@@ -23,7 +23,7 @@ elseif  nargin < 1 || nargin > 2
   disp('----------------------------------------------------------')
 else
     if (signal_to_adapt == 0); Policy_Type = 0; end
-    %% UAV i receivce signal to change his policy   
+    %% UAV i receivce signal to change its policy   
     % ex. change action of the UAV 1
     % ID_UAV = 1
     ID_UAV = 1;
